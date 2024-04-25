@@ -2,3 +2,72 @@ html, body, header{
     margin: 0px;
     padding: 0px;
 }
+#contenedorlogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 700px;
+}
+
+#central {
+    max-width: 320px;   
+    width: 100%;
+    border: #000000 2px;
+}
+
+.titulo {
+    font-size: 250%;
+    color:#000000;
+    padding-top: 15px;
+}
+
+#login {
+    width: 100%;
+    padding: 50px 30px;
+    background-color: #ffee00;
+    box-sizing: border-box;
+}
+
+#login input {
+    font-size: 110%;
+    color: #1b262c;
+    
+    display: block;
+    width: 100%;
+    height: 40px;
+    
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 10px;
+    
+    box-sizing: border-box;
+    
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+}
+
+#login input::placeholder {
+    color: #E4E4E4;
+}
+
+#login button {
+    font-size: 110%;
+    color:#1b262c;
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: #f8fabb;
+    margin-top: 10px;
+}
+
+#login button:hover {
+    background-color: rgb(255, 83, 83);
+    color:#fabbbb;
+}
+#Logologin{
+    width: 80px;
+    float: left;
+    padding-bottom: 10px;
+}
