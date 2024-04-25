@@ -71,3 +71,14 @@ html, body, header{
     float: left;
     padding-bottom: 10px;
 }
+.cantidad-input {
+    width: 50px;
+    padding: 5px;
+    font-size: 14px;
+    text-align: right;
+}
+.cantidad-producto {
+    text-align: right;
+    margin-top: 10px;
+    font-size: 18px;
+}
